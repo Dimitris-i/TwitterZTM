@@ -35,8 +35,8 @@ def like_numOfTweets_with_keyword(search_keyword, numberOfTweets):
         except StopIteration:
             break
 
-auth = tweepy.OAuthHandler('l3v7Bzgl9I6Z6oXmlBGAHf30b','XbSgzch7N0cf0t9G0V0mXYBJzNcO2xUhwhsVPjtvOFurct78vs')
-auth.set_access_token('318289151-E1ed2mxTgy0yaoHYOxUXzHJfXVIUvrjxUMThYeJ1', 'IwWxTf9spQxaOQ9sWtTeRofF4kFHMPbuXPdMb5KleYTgl')
+auth = tweepy.OAuthHandler('l3v76oXmlBGAHf30b','XbSgzch72xUhwhsVPjtvOFurct78vs')
+auth.set_access_token('E1ed2mxTgy0yaoHYUMThYeJ1', 'IwWxTXPdMb5KleYTgl')
 
 api = tweepy.API(auth)
 user = api.me()
